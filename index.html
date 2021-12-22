@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Task planner</title>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+<main>
+	<form id="main-form">
+
+		<div id="header-form" class="form-container">
+			<div class="form-container" id="left-header-form"><p>Unknown date</p></div>
+			<div class="form-container" id="right-header-form"> 
+				<p> 0 Tasks </p>
+				<button id="clear-button">CLEAR LIST</button>
+			</div>
+		</div>
+
+		<div id="add-task-form" class="form-container">
+			<button id="plus-button"> + </button> 
+			<input id="input-task" type="text" minlength="1" maxlength="30" placeholder="Type your task"> </input>
+		</div>
+
+  		<ul id="checkbox-form" class="form-container"></ul>
+
+  		<div id="inspired-form" class="form-container">
+			<p>Inspired by <span id="designer">Ennio Dybeli</span></p>
+		</div>
+
+	</form>
+</main>
+<script src="scripts.js"></script> 
+</body>
+
+</html>
